@@ -225,4 +225,13 @@ $('#nextBtn').on('click', function() {
     }
   });
 
+   // Same Shipping Address Toggle
+   $('#sameShippingAddress').change(function() {
+    if ($(this).is(':checked')) {
+        $('.shipping-details').hide();
+    } else {
+        $('.shipping-details').show();
+    }
+});
+
 });
