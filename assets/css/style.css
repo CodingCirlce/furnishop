@@ -69,6 +69,12 @@ overflow: hidden;
 transition: all 0.4s ease;
 }
 
+@media (max-width: 768px){
+  .btn {
+    font-size: 14px !important;
+  }
+}
+
 .btn-primary:hover {
 background-color: #ffffff !important;
 border: 1px solid var(--theme-default);
@@ -441,19 +447,29 @@ transform: scale(1.1) rotate(1deg);
   margin-bottom: 5px;
   text-transform: uppercase;
 }
+
 .hero-banner-item-overly-full h3 {
-font-size: 39px;
-font-weight: 900;
-color: #000;
-margin: 15px 0px;
-}
-.hero-banner-item-overly-full a {
-padding: 10px 20px;
+  font-size: 39px;
+  font-weight: 900;
+  color: #000;
+  margin: 15px 0px;
 }
 
+.hero-banner-item-overly-full a {
+  padding: 10px 20px;
+}
+
+@media (max-width: 992px){
+  .hero-banner-item-overly-full h3 {
+    font-size: 20px !important;
+  }
+  .hero-banner-item-overly-full h4 {
+    font-size: 15px;
+  }
+}
 
 .circle {
-border-radius: 100%;
+  border-radius: 100%;
 }
 
 a {
@@ -623,16 +639,28 @@ color: var(--theme-default);
 	-ms-transition: all 500ms ease-in-out 0s;
 }
 
+.product .product-card .image-first {
+  max-width: 210px;
+  height: auto;
+}
+
+.product .product-card > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .product .product-card .image-second {
-	left: 0;
-    opacity: 0;
+  max-width: 210px;
+  height: auto;
+	left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
 	-moz-opacity: 0;  
 	-khtml-opacity: 0;
 	-webkit-opacity: 0;
 	position: absolute;
-    right: 0;
-    top: 0;
-    transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
 	-webkit-transition: all 500ms ease-in-out 0s;
 	-moz-transition: all 500ms ease-in-out 0s;
 	-o-transition: all 500ms ease-in-out 0s;
@@ -712,19 +740,27 @@ color: var(--theme-default);
 
 
 .category-list .category-slider .item img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border: 1px solid #f0f0f0;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease;
   position: relative;
+  border-radius: 50%;
+  padding: 5px;
 }
 
+@media (max-width: 992px) {
+  .category-list .category-slider .item img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
 
 .category-container .category-title {
   color: #222222;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.4px;
   text-transform: capitalize;
   padding: 10px 0 0 0;
@@ -748,18 +784,18 @@ color: var(--theme-default);
   right: 0;
   padding: 0;
   position: absolute;
-  transition: all .8s ease 0s;
+  transition: all .4s ease 0s;
   -webkit-transition: all .8s ease 0s;
-  -moz-transition: all .8s ease 0s;
-  -ms-transition: all .8s ease 0s;
-  -o-transition: all .8s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -ms-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
   width: 0;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
-  border-radius: 8px;
+  border-radius: 50%;
 }
 
 .category-hover > a:hover:before,
@@ -1067,6 +1103,11 @@ font-size: 24px;
     font-size: 25px;
 }
 
+@media (max-width: 992px) {
+  .news-letter h4{
+    font-size: 15px;
+}
+}
 
 /* bradcrumb */
 .breadcrumb-main {
@@ -1078,11 +1119,18 @@ font-size: 24px;
 }
 .breadcrumb-main .page-title {
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin: 0 0 18px;
   line-height: 1;
 }
+
+@media (max-width: 768px) {
+  .breadcrumb-main .page-title {
+    font-size: 20px !important;
+  }
+}
+
 .breadcrumb {
   margin: 0;
   padding: 0;
@@ -1106,12 +1154,14 @@ font-size: 24px;
   color: var(--theme-default);
   display: inline-block;
 }
+
 .breadcrumb a {
   position: relative;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
   color: var(--theme-default);
 }
+
 .breadcrumb-item+.breadcrumb-item::before {
   content: none;
 }
@@ -1292,7 +1342,7 @@ box-shadow: none;
        top: auto!important;
        transform: none!important;
        visibility: visible;
-       width: 100%!important;
+       width: 90%!important;
    } 
    }
 
