@@ -1266,11 +1266,19 @@ font-size: 24px;
 
 /* Checkout */
 
-.product-checkout h5, .cart-coupon h5 {
+.product-checkout h5, 
+.cart-coupon h5 {
   background: #f8f8f8;
   padding:  1.3rem 1rem;
   text-transform: none;
   font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .product-checkout h5, 
+  .cart-coupon h5 {
+    font-size: 15px !important;
+  }
 }
 
 .gs_input_area {
@@ -1464,6 +1472,8 @@ box-shadow: none;
   object-fit: cover;
   border-radius: 8px;
   }
+
+
   
   .slider-nav {
     display: flex;
@@ -1614,4 +1624,17 @@ box-shadow: none;
     color: #333;
     border: 0;
     border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+@media (max-width: 768px){
+  .title-2{
+    font-size: 18px !important;
+  }
+
+.gs_input_area input[type=text], .gs_input_area input[type=password], .gs_input_area input[type=email], .gs_input_area input[type=number], .gs_input_area input[type=search] {
+    font-size: 14px !important;
+}
+
 }
