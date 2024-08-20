@@ -51,6 +51,15 @@ border-color: var(--theme-default) !important;
 border-radius: 5px;
 padding: 8px 25px;
 }
+
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .btn {
+    padding: 5px 18px;
+    font-size: 14px;
+  }
+}
+
 .btn.btn-rounded {
 border-radius: 30px;
 }

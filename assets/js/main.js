@@ -62,6 +62,10 @@ $(".product-slider").owlCarousel({
         },
         1000: {
             nav: true,
+            items: 3,
+        },
+        1200: {
+            nav: true,
             items: 4,
         },
     }
