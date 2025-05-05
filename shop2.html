@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Signup</title>
     <meta name="description" content="">
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -20,6 +20,135 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px 0;
+            /* background-color: #2c3e50; */
+            color: black;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .category-filter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .filter-btn:hover {
+            background-color: #2980b9;
+        }
+
+        .filter-btn.active {
+            background-color: #2c3e50;
+        }
+
+        .furniture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .furniture-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .furniture-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .furniture-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .furniture-info {
+            padding: 15px;
+        }
+
+        .furniture-info h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .furniture-info p {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1rem;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .furniture-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+
+        @media (max-width: 480px) {
+            .category-filter {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .filter-btn {
+                width: 80%;
+                margin-bottom: 5px;
+            }
+
+            .furniture-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -267,63 +396,204 @@
         <div class="breadcrumb-main">
             <div class="container">
                 <div class="breadcrumb-container">
-                    <h2 class="page-title">About Us</h2>
+                    <h2 class="page-title">Shop</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="#">Home</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="#">About Us</a>
+                            <a href="#">Products</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="about-section">
-            <div class="mt-4">
-                <div class="container">
-                    <div class="mt-5">
-                        <div>
-                            <h3>Our company</h3>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor
-                                sit amet conse ctetur adipisicing elit.<span>It has survived not only five centuries,
-                                    but also the leap into electronic typesetting, remaining essentially unchanged. It
-                                    was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                                    Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</span></p>
-                        </div>
-                        <br>
-                        <div>
-                            <h3>Our team</h3>
-                            <hr>
-                            <p>Lorem set sint occaecat cupidatat non<strong class="dark">,</strong>Eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo.Lorem Ipsum<span>&nbsp;is
-                                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                                    galley of type and scrambled it to make a type specimen book.</span></p>
-                        </div>
-                        <br>
-                        <div>
-                            <h3>Testimonials</h3>
-                            <hr>
-                            <p><span class="before">“</span>Lorem ipsum dolor sit amet conse ctetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim.<span class="after">”</span></p>
-                            <p><span class="before">“</span>Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet conse
-                                ctetur adipisicing elit. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed
-                                do eiusmod.<span class="after">”</span></p>
-                        </div>
-                    </div>
-                </div>
+        <!-- row -->
+        <div class="container">
+            <header>
+                <h1>Our line of products</h1>
+                <!-- <p>Find the perfect furniture for your home</p> -->
+            </header>
+
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="double-beds">Double Beds</button>
+                <button class="filter-btn" data-category="almirah">Almirah</button>
+                <button class="filter-btn" data-category="dining-tables">Dining Tables</button>
+                <button class="filter-btn" data-category="sofa-cum-beds">Sofa Cum Beds</button>
+                <button class="filter-btn" data-category="sofa">Sofa</button>
             </div>
 
-        </div>
-    </main>
+            <div class="furniture-grid">
+                <!-- Double Beds -->
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/33.png" alt="Double Bed 1" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Classic Double Bed</h3>
+                        <p>Solid wood construction with elegant finish</p>
+                        <p class="price">₹599.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/34.png" alt="Double Bed 2" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Platform Bed</h3>
+                        <p>Sleek design with built-in storage</p>
+                        <p class="price">₹799.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/35.png" alt="Double Bed 3" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Platform Bed</h3>
+                        <p>Sleek design with built-in storage</p>
+                        <p class="price">₹799.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/36.png" alt="Double Bed 3" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Platform Bed</h3>
+                        <p>Sleek design with built-in storage</p>
+                        <p class="price">₹799.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/37.png" alt="Double Bed 3" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Platform Bed</h3>
+                        <p>Sleek design with built-in storage</p>
+                        <p class="price">₹799.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/38.png" alt="Double Bed 3" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Platform Bed</h3>
+                        <p>Sleek design with built-in storage</p>
+                        <p class="price">₹799.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="double-beds">
+                    <img src="./assets/images/product/39.png" alt="Double Bed 3" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Platform Bed</h3>
+                        <p>Sleek design with built-in storage</p>
+                        <p class="price">₹799.99</p>
+                    </div>
+                </div>
+                <!-- Add 18 more double beds here -->
 
+                <!-- Almirah -->
+                <div class="furniture-item" data-category="almirah">
+                    <img src="https://source.unsplash.com/random/300x200/?wardrobe,1" alt="Almirah 1"
+                        class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Classic Wooden Almirah</h3>
+                        <p>Spacious storage with mirror doors</p>
+                        <p class="price">$449.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="almirah">
+                    <img src="https://source.unsplash.com/random/300x200/?wardrobe,2" alt="Almirah 2"
+                        class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Modern Sliding Door Almirah</h3>
+                        <p>Space-saving design with ample storage</p>
+                        <p class="price">$549.99</p>
+                    </div>
+                </div>
+                <!-- Add 18 more almirahs here -->
+
+                <!-- Dining Tables -->
+                <div class="furniture-item" data-category="dining-tables">
+                    <img src="https://source.unsplash.com/random/300x200/?dining-table,1" alt="Dining Table 1"
+                        class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Extendable Dining Table</h3>
+                        <p>Seats 6-10 people with extension leaf</p>
+                        <p class="price">$899.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="dining-tables">
+                    <img src="https://source.unsplash.com/random/300x200/?dining-table,2" alt="Dining Table 2"
+                        class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Rustic Farmhouse Table</h3>
+                        <p>Handcrafted solid wood with distressed finish</p>
+                        <p class="price">$749.99</p>
+                    </div>
+                </div>
+                <!-- Add 18 more dining tables here -->
+
+                <!-- Sofa Cum Beds -->
+                <div class="furniture-item" data-category="sofa-cum-beds">
+                    <img src="https://source.unsplash.com/random/300x200/?sofa-bed,1" alt="Sofa Cum Bed 1"
+                        class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Convertible Sofa Bed</h3>
+                        <p>Easily transforms from sofa to full-size bed</p>
+                        <p class="price">$649.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="sofa-cum-beds">
+                    <img src="https://source.unsplash.com/random/300x200/?sofa-bed,2" alt="Sofa Cum Bed 2"
+                        class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Futon Sofa Bed</h3>
+                        <p>Modern design with memory foam mattress</p>
+                        <p class="price">$549.99</p>
+                    </div>
+                </div>
+                <!-- Add 18 more sofa cum beds here -->
+
+                <!-- Sofa -->
+                <div class="furniture-item" data-category="sofa">
+                    <img src="https://source.unsplash.com/random/300x200/?sofa,1" alt="Sofa 1" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>Classic 3-Seater Sofa</h3>
+                        <p>Premium fabric with high-density foam</p>
+                        <p class="price">$799.99</p>
+                    </div>
+                </div>
+                <div class="furniture-item" data-category="sofa">
+                    <img src="https://source.unsplash.com/random/300x200/?sofa,2" alt="Sofa 2" class="furniture-img">
+                    <div class="furniture-info">
+                        <h3>L-Shaped Sectional Sofa</h3>
+                        <p>Modular design with chaise lounge</p>
+                        <p class="price">$1,299.99</p>
+                    </div>
+                </div>
+                <!-- Add 18 more sofas here -->
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const filterButtons = document.querySelectorAll('.filter-btn');
+                const furnitureItems = document.querySelectorAll('.furniture-item');
+
+                filterButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        // Remove active class from all buttons
+                        filterButtons.forEach(btn => btn.classList.remove('active'));
+                        // Add active class to clicked button
+                        button.classList.add('active');
+
+                        const category = button.dataset.category;
+
+                        furnitureItems.forEach(item => {
+                            if (category === 'all' || item.dataset.category === category) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        });
+                    });
+                });
+            });
+        </script>
+    </main>
     <!-- footer Section -->
     <footer class="mt-50">
         <div class="container">
@@ -332,12 +602,12 @@
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="footer_logo">
-                                <img loading="lazy" src="./assets/images/logo1PNG.PNG" class="logo" alt="easy shop">
+                                <img loading="lazy" src="./assets/images/logo.png" class="logo" alt="easy shop">
                             </div>
                             <div class="mt-4">
-                                <p>55/2, Moti Bazar, <br> Ajit Prasad Nagar, Paltan Bazaar, <br> Dehradun, Uttarakhand
-                                    248001</p>
-                                <h3 class="h5 fw-bold">78305 38311</h3>
+                                <p>Widgetify Inc, 456 Gadget Avenue, <br> Techtown, TX 67890, <br> United States of
+                                    America</p>
+                                <h3 class="h5 fw-bold">(987) 654-3210</h3>
                                 <p>info@example.com</p>
                             </div>
                         </div>
@@ -400,7 +670,7 @@
             </div>
         </div>
         <div class="text-center py-3 mt-4 text-white px-3 copyright">
-            <span>Copyright © 2024. All Rights Reserved. Themes By KodingCircle</span>
+            <span>Copyright © 2024. All Rights Reserved. Themes By TemplateRise</span>
         </div>
     </footer>
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
