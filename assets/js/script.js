@@ -62,7 +62,7 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("loading");
 
     // Welcome animation
-    const text = "🔨 KWALITY FURNITURE WORLD...";
+    const text = "🔨 KWALITY FURNITURE WORLD";
     const typingText = document.getElementById("text");
     let i = 0;
 
