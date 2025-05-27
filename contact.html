@@ -21,6 +21,9 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.8.1/firebase-database-compat.js"></script>
+
 
     <style>
         .location-section {
@@ -559,6 +562,57 @@
     <script src="./assets/plugin/nouislider/nouislider.min.js"></script>
     <script src="./assets/plugin/slick/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
+
+
+    <script>
+
+
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyAVWKdo2PQBw7T6EPAc1xiAWEYveimnZPo",
+            authDomain: "kwality-furniture-website.firebaseapp.com",
+            projectId: "kwality-furniture-website",
+            storageBucket: "kwality-furniture-website.firebasestorage.app",
+            messagingSenderId: "837809927988",
+            appId: "1:837809927988:web:d222ecbd728d2628645761"
+        };
+
+        // Initialize Firebase
+        // const app = initializeApp(firebaseConfig);
+
+        // ✅ Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Reference to database
+        const db = firebase.database();
+
+        // Handle form submission
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const surname = document.getElementById('surname').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Push data to Realtime DB under 'contacts'
+            db.ref('contacts').push({
+                name,
+                surname,
+                email,
+                message,
+                timestamp: Date.now()
+            }).then(() => {
+                alert('Message sent!');
+                document.getElementById('contact-form').reset();
+            }).catch(error => {
+                alert('Error: ' + error.message);
+            });
+        });
+    </script>
+
+
+
 </body>
 
 </html>
