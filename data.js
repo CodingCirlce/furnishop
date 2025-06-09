@@ -421,7 +421,7 @@ const products = [
     category: "sofa",
     name: "Classic 3-Seater Sofa",
     description: "Traditional 3-seater sofa",
-    price: 36580,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/sofa/img70.jpg"]
@@ -431,7 +431,7 @@ const products = [
     category: "sofa",
     name: "L-Shaped Sectional Sofa",
     description: "Modular L-shaped configuration",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img76.jpg"]
@@ -441,7 +441,7 @@ const products = [
     category: "sofa",
     name: "Regal Maharaja Sofa",
     description: "Ornate royal-inspired design",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img82.jpg"]
@@ -451,7 +451,7 @@ const products = [
     category: "sofa",
     name: "Majestic Empress Sofa",
     description: "Elegant curved-back design",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img88.jpg"]
@@ -461,7 +461,7 @@ const products = [
     category: "sofa",
     name: "Grand Nawab Sofa",
     description: "Luxurious velvet upholstery",
-    price: 9204,
+    price: "₹9,204 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img112.jpg"]
@@ -471,7 +471,7 @@ const products = [
     category: "sofa",
     name: "Colonial Charm Sofa",
     description: "Vintage colonial style",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img118.jpg"]
@@ -481,7 +481,7 @@ const products = [
     category: "sofa",
     name: "Artisan Carver Sofa",
     description: "Hand-carved wooden details",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img148.jpg"]
@@ -491,7 +491,7 @@ const products = [
     category: "sofa",
     name: "Jaipur Bloom Sofa",
     description: "Floral motif fabric",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img160.jpg"]
@@ -501,7 +501,7 @@ const products = [
     category: "sofa",
     name: "Deccan Dynasty Sofa",
     description: "Regal high-back design",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img166.jpg"]
@@ -511,7 +511,7 @@ const products = [
     category: "sofa",
     name: "Vedic Comfort Sofa",
     description: "Ergonomic spiritual design",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img172.jpg"]
@@ -521,7 +521,7 @@ const products = [
     category: "sofa",
     name: "Bombay Lounge Sofa",
     description: "Art deco inspired",
-    price: 9204,
+    price: "₹9,204 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img178.jpg"]
@@ -531,7 +531,7 @@ const products = [
     category: "sofa",
     name: "Delhi Sultan Sofa",
     description: "Opulent Mughal style",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img184.jpg"]
@@ -541,7 +541,7 @@ const products = [
     category: "sofa",
     name: "Calcutta Club Sofa",
     description: "British Raj elegance",
-    price: 11210,
+    price: "₹11,210 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img190.jpg"]
@@ -551,7 +551,7 @@ const products = [
     category: "sofa",
     name: "Punjab Pride Sofa",
     description: "Vibrant Phulkari patterns",
-    price: 11210,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img208.jpg"]
@@ -561,7 +561,7 @@ const products = [
     category: "sofa",
     name: "Himalayan Retreat Sofa",
     description: "Natural wood and wool",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img220.jpg"]
@@ -571,7 +571,7 @@ const products = [
     category: "sofa",
     name: "Goan Getaway Sofa",
     description: "Portuguese colonial influence",
-    price: 11210,
+    price: "₹11,210 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img226.jpg"]
@@ -581,7 +581,7 @@ const products = [
     category: "sofa",
     name: "Ganga River Sofa",
     description: "Flowing curved design",
-    price: 11210,
+    price: "₹11,210 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img232.jpg"]
@@ -591,7 +591,7 @@ const products = [
     category: "sofa",
     name: "Indus Modern Sofa",
     description: "Contemporary clean lines",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img238.jpg"]
@@ -601,7 +601,7 @@ const products = [
     category: "sofa",
     name: "Bharat Recliner Sofa",
     description: "With built-in recliners",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img250.jpg"]
@@ -611,7 +611,7 @@ const products = [
     category: "sofa",
     name: "Unity Corner Sofa",
     description: "Modular sectional pieces",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img262.jpg"]
@@ -621,7 +621,7 @@ const products = [
     category: "sofa",
     name: "Divine Embrace Sofa",
     description: "Wraparound comfort",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img268.jpg"]
@@ -631,7 +631,7 @@ const products = [
     category: "sofa",
     name: "Mystic Sands Sofa",
     description: "Desert-inspired tones",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img274.jpg"]
@@ -641,7 +641,7 @@ const products = [
     category: "sofa",
     name: "Golden Thread Sofa",
     description: "Metallic thread embroidery",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img280.jpg"]
@@ -651,7 +651,7 @@ const products = [
     category: "sofa",
     name: "Sapphire Blue Sofa",
     description: "Deep blue velvet",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img286.jpg"]
@@ -661,7 +661,7 @@ const products = [
     category: "sofa",
     name: "Emerald Green Sofa",
     description: "Jewel-toned luxury",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img304.jpg"]
@@ -671,7 +671,7 @@ const products = [
     category: "sofa",
     name: "Mahal Palace Sofa",
     description: "Fit for royalty",
-    price: 11210,
+    price: "₹11,210 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img316.jpg"]
@@ -681,7 +681,7 @@ const products = [
     category: "sofa",
     name: "Fortress Living Sofa",
     description: "Sturdy and imposing",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img322.jpg"]
@@ -691,7 +691,7 @@ const products = [
     category: "sofa",
     name: "Royal Comfort Sofa",
     description: "Plush cushioning",
-    price: 7316,
+    price: "₹7,316 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img328.jpg"]
@@ -701,7 +701,7 @@ const products = [
     category: "sofa",
     name: "Zenith Modular Sofa",
     description: "Custom configurations",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img364.jpg"]
@@ -712,7 +712,7 @@ const products = [
     category: "sofa",
     name: "Elite Executive Sofa",
     description: "Premium executive seating",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img394.jpg"]
@@ -722,7 +722,7 @@ const products = [
     category: "sofa",
     name: "Family Fiesta Sofa",
     description: "Spacious family seating",
-    price: 10030,
+    price: "₹10,030 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img400.jpg"]
@@ -732,7 +732,7 @@ const products = [
     category: "sofa",
     name: "Studio Smart Sofa",
     description: "Modern studio apartment solution",
-    price: 11210,
+    price: "₹11,210 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img406.jpg"]
@@ -742,7 +742,7 @@ const products = [
     category: "sofa",
     name: "Compact Living Sofa",
     description: "Space-efficient urban design",
-    price: 11210,
+    price: "₹11,210 per seat Incl GST",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img412.jpg"]
