@@ -4,7 +4,7 @@ const products = [
     name: "Classic Double Bed",
     category: "double-beds",
     description: "Timeless double bed with sturdy wooden frame",
-    price: "Incl GST 18% ₹41,300",
+    price: "All Rates Incl. ₹41,300",
     images: ["./assets/images/product/33.png"]
 
   },
@@ -13,7 +13,7 @@ const products = [
     name: "Modern Serenity Bed",
     category: "double-beds",
     description: "Contemporary design for peaceful sleep",
-    price: "Incl GST 18% ₹29,900",
+    price: "All Rates Incl. ₹29,900",
     images: ["./assets/images/product/34.png"]
   },
   {
@@ -21,7 +21,7 @@ const products = [
     name: "Dream Weaver Bed",
     category: "double-beds",
     description: "Handcrafted bed with intricate detailing",
-    price: "Incl GST 18% ₹42,900",
+    price: "All Rates Incl. ₹42,900",
     images: ["./assets/images/product/35.png"]
   },
   {
@@ -29,7 +29,7 @@ const products = [
     name: "Horizon Platform Bed",
     category: "double-beds",
     description: "Low-profile platform bed with clean lines",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/product/36.png"]
   },
   {
@@ -37,7 +37,7 @@ const products = [
     name: "Everest Plush Bed",
     category: "double-beds",
     description: "Luxurious high-end bed with premium upholstery",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/product/37.png"]
   },
   {
@@ -45,7 +45,7 @@ const products = [
     name: "Coastal Retreat Bed",
     category: "double-beds",
     description: "Beach-inspired design with light wood finish",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/product/39.png"]
   },
   {
@@ -53,7 +53,7 @@ const products = [
     name: "Utopia King Bed",
     category: "double-beds",
     description: "Spacious king-size bed with elegant headboard",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.35.jpeg"]
   },
   {
@@ -61,7 +61,7 @@ const products = [
     name: "Artisan Craft Bed",
     category: "double-beds",
     description: "Hand-carved wooden bed with traditional motifs",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.36.jpeg"]
   },
   {
@@ -69,7 +69,7 @@ const products = [
     name: "Celestial Slumber Bed",
     category: "double-beds",
     description: "Canopy bed with celestial-inspired design",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.38.jpeg"]
   },
   {
@@ -77,7 +77,7 @@ const products = [
     name: "Whispering Willow Bed",
     category: "double-beds",
     description: "Graceful bed with willow-inspired carvings",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.41.jpeg"]
   },
   {
@@ -85,7 +85,7 @@ const products = [
     name: "Monarch Grand Bed",
     category: "double-beds",
     description: "Regal bed fit for royalty with ornate details",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.42.jpeg"]
   },
   {
@@ -93,7 +93,7 @@ const products = [
     name: "Harmony Haven Bed",
     category: "double-beds",
     description: "Balanced design promoting restful sleep",
-    price: "Incl GST 18% ₹43,900",
+    price: "All Rates Incl. ₹43,900",
     images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.46.jpeg"]
   },
   {
@@ -101,16 +101,16 @@ const products = [
     name: "Summit Sleep Bed",
     category: "double-beds",
     description: "Peak of comfort with premium mattress support",
-    price: "Incl GST 18% ₹43,900",
-    images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.48.jpeg"]
+    price: "All Rates Incl. ₹43,900",
+    images: ["./assets/images/sofa/IMG_20240329_164339_815.jpg"]
   },
   {
     id: 14,
     name: "Infinity Zen Bed",
     category: "double-beds",
     description: "Minimalist design with zen-inspired aesthetics",
-    price: "Incl GST 18% ₹43,900",
-    images: ["./assets/images/sofa/WhatsApp Image 2025-04-27 at 13.32.48 (1).jpeg"]
+    price: "All Rates Incl. ₹43,900",
+    images: ["./assets/images/sofa/ChatGPT Image Jun 18, 2025, 01_52_56 PM.png"]
   },
   {
     id: 15,
@@ -229,7 +229,7 @@ const products = [
     name: "The Grand Feast",
     category: "dining-tables",
     description: "Elegant dining table for family gatherings",
-    price: "Incl GST 18% ₹46,900",
+    price: "All Rates Incl. ₹46,900",
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.13.jpeg"]
   },
   {
@@ -237,7 +237,7 @@ const products = [
     name: "Maharaja Dine",
     category: "dining-tables",
     description: "Royal-inspired dining table for lavish meals",
-    price: "Incl GST 18% ₹98,600",
+    price: "All Rates Incl. ₹98,600",
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.14.jpeg"]
   },
   {
@@ -245,7 +245,7 @@ const products = [
     category: "dining-tables",
     name: "Regal Rose",
     description: "Seats 5 people with extension leaf",
-    price: "Incl GST 18% ₹46900",
+    price: "All Rates Incl. ₹46900",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.16 (1).jpeg"]
   },
@@ -255,7 +255,7 @@ const products = [
     category: "dining-tables",
     name: "Emperor's Table",
     description: "Seats 8 people with extension leaf",
-    price: "Incl GST 18% ₹148900",
+    price: "All Rates Incl. ₹148900",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.16.jpeg"]
   },
@@ -264,7 +264,7 @@ const products = [
     category: "dining-tables",
     name: "Royal Oak",
     description: "Wooden table for 1",
-    price: "Incl GST 18% ₹16520",
+    price: "All Rates Incl. ₹16520",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.17 (1).jpeg"]
   },
@@ -273,7 +273,7 @@ const products = [
     category: "dining-tables",
     name: "Heritage Dining",
     description: "Seats 8 people with extension leaf",
-    price: "Incl GST 18% ₹151900",
+    price: "All Rates Incl. ₹151900",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.17.jpeg"]
   },
@@ -282,7 +282,7 @@ const products = [
     category: "dining-tables",
     name: "Classic Teak",
     description: "Seats 6 people with extension leaf",
-    price: "Incl GST 18% ₹158900",
+    price: "All Rates Incl. ₹158900",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.18 (1).jpeg"]
   },
@@ -291,7 +291,7 @@ const products = [
     category: "dining-tables",
     name: "Ivory Elegance",
     description: "Seats 6 people with extension leaf",
-    price: "Incl GST 18% ₹95800",
+    price: "All Rates Incl. ₹95800",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 12.58.18.jpeg"]
   },
@@ -300,7 +300,7 @@ const products = [
     category: "dining-tables",
     name: "Saffron Supper",
     description: "Seats 6 people with extension leaf",
-    price: "Incl GST 18% ₹152900",
+    price: "All Rates Incl. ₹152900",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.03.50.jpeg"]
   },
@@ -309,7 +309,7 @@ const products = [
     category: "dining-tables",
     name: "The Noble Table",
     description: "Seats 6 people with extension leaf",
-    price: "Incl GST 18% ₹152900",
+    price: "All Rates Incl. ₹152900",
     gstIncluded: true,
     images: ["./assets/images/latestone/WhatsApp Image 2025-05-30 at 12.16.00 (1).jpeg"]
   },
@@ -318,7 +318,7 @@ const products = [
     category: "dining-tables",
     name: "Golden Glaze",
     description: "Seats 6 people with extension leaf",
-    price: "Incl GST 18% ₹152900",
+    price: "All Rates Incl. ₹152900",
     gstIncluded: true,
     images: ["./assets/images/latestone/WhatsApp Image 2025-05-30 at 12.16.00.jpeg"]
   },
@@ -327,7 +327,7 @@ const products = [
     category: "dining-tables",
     name: "Pearl Dining",
     description: "Seats 6 people with extension leaf",
-    price: "Incl GST 18% ₹78116",
+    price: "All Rates Incl. ₹78116",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-29 at 12.41.18.jpeg"]
   },
@@ -338,7 +338,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "The ConvertiLounge",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹36580",
+    price: "All Rates Incl. ₹36580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.21 (1).jpeg"]
   },
@@ -347,7 +347,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "FlexiSleeper",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹36580",
+    price: "All Rates Incl. ₹36580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.18.jpeg"]
   },
@@ -356,7 +356,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "Urban Dweller Sofa Bed",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹41580",
+    price: "All Rates Incl. ₹41580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.21 (2).jpeg"]
   },
@@ -365,7 +365,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "The Harmony Transformer",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹41580",
+    price: "All Rates Incl. ₹41580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.22.jpeg"]
   },
@@ -374,7 +374,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "Chameleon Couch",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹36580",
+    price: "All Rates Incl. ₹36580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.23 (1).jpeg"]
   },
@@ -383,7 +383,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "Day-to-Night Lounger",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹38580",
+    price: "All Rates Incl. ₹38580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.24 (1).jpeg"]
   },
@@ -392,7 +392,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "SpaceSaver Sleeper",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹40580",
+    price: "All Rates Incl. ₹40580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.26.jpeg"]
   },
@@ -401,7 +401,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "Convertible Sofa Bed",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹37580",
+    price: "All Rates Incl. ₹37580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.29.jpeg"]
   },
@@ -410,7 +410,7 @@ const products = [
     category: "sofa-cum-beds",
     name: "The Dual Function Sofa",
     description: "Convertible sofa to bed",
-    price: "Incl GST 18% ₹42580",
+    price: "All Rates Incl. ₹42580",
     gstIncluded: true,
     images: ["./assets/images/product/WhatsApp Image 2025-05-17 at 13.50.28 (1).jpeg"]
   },
@@ -421,7 +421,7 @@ const products = [
     category: "sofa",
     name: "Classic 3-Seater Sofa",
     description: "Traditional 3-seater sofa",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/sofa/img70.jpg"]
@@ -431,7 +431,7 @@ const products = [
     category: "sofa",
     name: "L-Shaped Sectional Sofa",
     description: "Modular L-shaped configuration",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img76.jpg"]
@@ -441,7 +441,7 @@ const products = [
     category: "sofa",
     name: "Regal Maharaja Sofa",
     description: "Ornate royal-inspired design",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img82.jpg"]
@@ -451,7 +451,7 @@ const products = [
     category: "sofa",
     name: "Majestic Empress Sofa",
     description: "Elegant curved-back design",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img88.jpg"]
@@ -461,7 +461,7 @@ const products = [
     category: "sofa",
     name: "Grand Nawab Sofa",
     description: "Luxurious velvet upholstery",
-    price: "₹9,204 per seat Incl GST",
+    price: "₹9,204 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img112.jpg"]
@@ -471,7 +471,7 @@ const products = [
     category: "sofa",
     name: "Colonial Charm Sofa",
     description: "Vintage colonial style",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img118.jpg"]
@@ -481,7 +481,7 @@ const products = [
     category: "sofa",
     name: "Artisan Carver Sofa",
     description: "Hand-carved wooden details",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img148.jpg"]
@@ -491,7 +491,7 @@ const products = [
     category: "sofa",
     name: "Jaipur Bloom Sofa",
     description: "Floral motif fabric",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img160.jpg"]
@@ -501,7 +501,7 @@ const products = [
     category: "sofa",
     name: "Deccan Dynasty Sofa",
     description: "Regal high-back design",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img166.jpg"]
@@ -511,7 +511,7 @@ const products = [
     category: "sofa",
     name: "Vedic Comfort Sofa",
     description: "Ergonomic spiritual design",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img172.jpg"]
@@ -521,7 +521,7 @@ const products = [
     category: "sofa",
     name: "Bombay Lounge Sofa",
     description: "Art deco inspired",
-    price: "₹9,204 per seat Incl GST",
+    price: "₹9,204 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img178.jpg"]
@@ -531,7 +531,7 @@ const products = [
     category: "sofa",
     name: "Delhi Sultan Sofa",
     description: "Opulent Mughal style",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img184.jpg"]
@@ -541,7 +541,7 @@ const products = [
     category: "sofa",
     name: "Calcutta Club Sofa",
     description: "British Raj elegance",
-    price: "₹11,210 per seat Incl GST",
+    price: "₹11,210 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img190.jpg"]
@@ -551,7 +551,7 @@ const products = [
     category: "sofa",
     name: "Punjab Pride Sofa",
     description: "Vibrant Phulkari patterns",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img208.jpg"]
@@ -561,7 +561,7 @@ const products = [
     category: "sofa",
     name: "Himalayan Retreat Sofa",
     description: "Natural wood and wool",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img220.jpg"]
@@ -571,7 +571,7 @@ const products = [
     category: "sofa",
     name: "Goan Getaway Sofa",
     description: "Portuguese colonial influence",
-    price: "₹11,210 per seat Incl GST",
+    price: "₹11,210 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img226.jpg"]
@@ -581,7 +581,7 @@ const products = [
     category: "sofa",
     name: "Ganga River Sofa",
     description: "Flowing curved design",
-    price: "₹11,210 per seat Incl GST",
+    price: "₹11,210 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img232.jpg"]
@@ -591,7 +591,7 @@ const products = [
     category: "sofa",
     name: "Indus Modern Sofa",
     description: "Contemporary clean lines",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img238.jpg"]
@@ -601,7 +601,7 @@ const products = [
     category: "sofa",
     name: "Bharat Recliner Sofa",
     description: "With built-in recliners",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img250.jpg"]
@@ -611,7 +611,7 @@ const products = [
     category: "sofa",
     name: "Unity Corner Sofa",
     description: "Modular sectional pieces",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img262.jpg"]
@@ -621,7 +621,7 @@ const products = [
     category: "sofa",
     name: "Divine Embrace Sofa",
     description: "Wraparound comfort",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img268.jpg"]
@@ -631,7 +631,7 @@ const products = [
     category: "sofa",
     name: "Mystic Sands Sofa",
     description: "Desert-inspired tones",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img274.jpg"]
@@ -641,7 +641,7 @@ const products = [
     category: "sofa",
     name: "Golden Thread Sofa",
     description: "Metallic thread embroidery",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img280.jpg"]
@@ -651,7 +651,7 @@ const products = [
     category: "sofa",
     name: "Sapphire Blue Sofa",
     description: "Deep blue velvet",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img286.jpg"]
@@ -661,7 +661,7 @@ const products = [
     category: "sofa",
     name: "Emerald Green Sofa",
     description: "Jewel-toned luxury",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img304.jpg"]
@@ -671,7 +671,7 @@ const products = [
     category: "sofa",
     name: "Mahal Palace Sofa",
     description: "Fit for royalty",
-    price: "₹11,210 per seat Incl GST",
+    price: "₹11,210 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img316.jpg"]
@@ -681,7 +681,7 @@ const products = [
     category: "sofa",
     name: "Fortress Living Sofa",
     description: "Sturdy and imposing",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img322.jpg"]
@@ -691,7 +691,7 @@ const products = [
     category: "sofa",
     name: "Royal Comfort Sofa",
     description: "Plush cushioning",
-    price: "₹7,316 per seat Incl GST",
+    price: "₹7,316 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img328.jpg"]
@@ -701,7 +701,7 @@ const products = [
     category: "sofa",
     name: "Zenith Modular Sofa",
     description: "Custom configurations",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img364.jpg"]
@@ -712,7 +712,7 @@ const products = [
     category: "sofa",
     name: "Elite Executive Sofa",
     description: "Premium executive seating",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img394.jpg"]
@@ -722,7 +722,7 @@ const products = [
     category: "sofa",
     name: "Family Fiesta Sofa",
     description: "Spacious family seating",
-    price: "₹10,030 per seat Incl GST",
+    price: "₹10,030 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img400.jpg"]
@@ -732,7 +732,7 @@ const products = [
     category: "sofa",
     name: "Studio Smart Sofa",
     description: "Modern studio apartment solution",
-    price: "₹11,210 per seat Incl GST",
+    price: "₹11,210 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img406.jpg"]
@@ -742,9 +742,159 @@ const products = [
     category: "sofa",
     name: "Compact Living Sofa",
     description: "Space-efficient urban design",
-    price: "₹11,210 per seat Incl GST",
+    price: "₹11,210 per seat All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: true,
     images: ["./assets/images/sofa/img412.jpg"]
+  },
+  {
+    id: 83,
+    category: "centertable",
+    name: "Modern Glass Center Table",
+    description: "Sleek tempered glass top with metallic frame for contemporary spaces",
+    price: "₹8,450 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img01.png"]
+  },
+  {
+    id: 84,
+    category: "centertable",
+    name: "Wooden Round Center Table",
+    description: "Handcrafted solid wood table with natural finish",
+    price: "₹12,750 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img02.png"]
+  },
+  {
+    id: 85,
+    category: "centertable",
+    name: "Nested Coffee Tables Set",
+    description: "Set of three versatile tables that can be arranged creatively",
+    price: "₹15,990 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img03.png"]
+  },
+  {
+    id: 86,
+    category: "centertable",
+    name: "Industrial Metal Center Table",
+    description: "Rustic iron frame with distressed wood top for industrial chic",
+    price: "₹14,200 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img04.png"]
+  },
+  {
+    id: 87,
+    category: "centertable",
+    name: "Marble Top Center Table",
+    description: "Elegant marble surface with gold-trimmed legs",
+    price: "₹22,500 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img05.png"]
+  },
+  {
+    id: 88,
+    category: "centertable",
+    name: "Foldable Ottoman Table",
+    description: "Dual-purpose design that converts from table to footrest",
+    price: "₹9,800 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img06.png"]
+  },
+  {
+    id: 89,
+    category: "centertable",
+    name: "Rustic Tree Trunk Table",
+    description: "Natural wood slice with live edge and iron base",
+    price: "₹18,350 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img07.png"]
+  },
+  {
+    id: 90,
+    category: "centertable",
+    name: "Minimalist Square Center Table",
+    description: "Clean lines and neutral tones for Scandinavian interiors",
+    price: "₹10,900 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img08.png"]
+  },
+  {
+    id: 91,
+    category: "centertable",
+    name: "Lift-Top Coffee Table",
+    description: "Convertible design with adjustable height for multiple uses",
+    price: "₹16,750 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img09.png"]
+  },
+  {
+    id: 92,
+    category: "centertable",
+    name: "Vintage Trunk Center Table",
+    description: "Antique-style leather trunk with storage space",
+    price: "₹13,450 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img10.png"]
+  },
+  {
+    id: 93,
+    category: "centertable",
+    name: "Geometric Brass Center Table",
+    description: "Angular brass frame with smoked glass top for modern decor",
+    price: "₹19,999 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img11.png"]
+  },
+  {
+    id: 94,
+    category: "centertable",
+    name: "River Epoxy Wood Table",
+    description: "Live edge wood with blue epoxy resin river design",
+    price: "₹24,500 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img12.png"]
+  },
+  {
+    id: 95,
+    category: "centertable",
+    name: "Rotating Storage Center Table",
+    description: "360° rotating top with hidden compartments for organization",
+    price: "₹17,850 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img13.png"]
+  },
+  {
+    id: 96,
+    category: "centertable",
+    name: "Mid-Century Teak Center Table",
+    description: "Classic 1960s design with tapered legs and warm wood tones",
+    price: "₹21,300 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img14.png"]
+  },
+  {
+    id: 97,
+    category: "centertable",
+    name: "Acrylic Floating Center Table",
+    description: "Transparent modern design that creates illusion of space",
+    price: "₹15,600 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/center/img15.png"]
   }
 ];
