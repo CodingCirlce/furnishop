@@ -752,7 +752,7 @@ const products = [
     category: "centertable",
     name: "Modern Glass Center Table",
     description: "Sleek tempered glass top with metallic frame for contemporary spaces",
-    price: "₹8,450 All Rates Incl.",
+    price: "₹16,140 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img01.png"]
@@ -760,9 +760,9 @@ const products = [
   {
     id: 84,
     category: "centertable",
-    name: "Wooden Round Center Table",
+    name: "Wooden Center Table",
     description: "Handcrafted solid wood table with natural finish",
-    price: "₹12,750 All Rates Incl.",
+    price: "₹21,830 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img02.png"]
@@ -772,7 +772,7 @@ const products = [
     category: "centertable",
     name: "Nested Coffee Tables Set",
     description: "Set of three versatile tables that can be arranged creatively",
-    price: "₹15,990 All Rates Incl.",
+    price: "₹31,270 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img03.png"]
@@ -780,9 +780,9 @@ const products = [
   {
     id: 86,
     category: "centertable",
-    name: "Industrial Metal Center Table",
+    name: "Industrial Center Table",
     description: "Rustic iron frame with distressed wood top for industrial chic",
-    price: "₹14,200 All Rates Incl.",
+    price: "₹31,270 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img04.png"]
@@ -792,7 +792,7 @@ const products = [
     category: "centertable",
     name: "Marble Top Center Table",
     description: "Elegant marble surface with gold-trimmed legs",
-    price: "₹22,500 All Rates Incl.",
+    price: "₹29,500 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img05.png"]
@@ -800,9 +800,9 @@ const products = [
   {
     id: 88,
     category: "centertable",
-    name: "Foldable Ottoman Table",
+    name: "Ottoman Table",
     description: "Dual-purpose design that converts from table to footrest",
-    price: "₹9,800 All Rates Incl.",
+    price: "₹32,600 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img06.png"]
@@ -812,7 +812,7 @@ const products = [
     category: "centertable",
     name: "Rustic Tree Trunk Table",
     description: "Natural wood slice with live edge and iron base",
-    price: "₹18,350 All Rates Incl.",
+    price: "₹31,270 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img07.png"]
@@ -822,7 +822,7 @@ const products = [
     category: "centertable",
     name: "Minimalist Square Center Table",
     description: "Clean lines and neutral tones for Scandinavian interiors",
-    price: "₹10,900 All Rates Incl.",
+    price: "₹17,110 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img08.png"]
@@ -832,7 +832,7 @@ const products = [
     category: "centertable",
     name: "Lift-Top Coffee Table",
     description: "Convertible design with adjustable height for multiple uses",
-    price: "₹16,750 All Rates Incl.",
+    price: "₹18,880 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img09.png"]
@@ -842,7 +842,7 @@ const products = [
     category: "centertable",
     name: "Vintage Trunk Center Table",
     description: "Antique-style leather trunk with storage space",
-    price: "₹13,450 All Rates Incl.",
+    price: "₹18,880 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img10.png"]
@@ -852,7 +852,7 @@ const products = [
     category: "centertable",
     name: "Geometric Brass Center Table",
     description: "Angular brass frame with smoked glass top for modern decor",
-    price: "₹19,999 All Rates Incl.",
+    price: "₹28,320 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img11.png"]
@@ -862,7 +862,7 @@ const products = [
     category: "centertable",
     name: "River Epoxy Wood Table",
     description: "Live edge wood with blue epoxy resin river design",
-    price: "₹24,500 All Rates Incl.",
+    price: "₹15,880 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img12.png"]
@@ -882,7 +882,7 @@ const products = [
     category: "centertable",
     name: "Mid-Century Teak Center Table",
     description: "Classic 1960s design with tapered legs and warm wood tones",
-    price: "₹21,300 All Rates Incl.",
+    price: "₹29,500 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img14.png"]
@@ -892,9 +892,119 @@ const products = [
     category: "centertable",
     name: "Acrylic Floating Center Table",
     description: "Transparent modern design that creates illusion of space",
-    price: "₹15,600 All Rates Incl.",
+    price: "₹18,880 All Rates Incl.",
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/center/img15.png"]
+  },
+  {
+    id: 98,
+    category: "double-beds",
+    name: "Full-size bed",
+    description: "The Full-Size Bed: Intimate Comfort",
+    price: "₹18,880 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/13.png"]
+  },
+  {
+    id: 99,
+    category: "double-beds",
+    name: "Celestial Dream Bed",
+    description: "Canopy design with star-patterned fabric for heavenly sleeps",
+    price: "₹32,450 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/14.png"]
+  },
+  {
+    id: 100,
+    category: "double-beds",
+    name: "Whispering Pines Bed",
+    description: "Solid pine wood frame with carved nature-inspired motifs",
+    price: "₹28,750 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/15.png"]
+  },
+  {
+    id: 101,
+    category: "double-beds",
+    name: "Velvet Horizon Bed",
+    description: "Luxurious velvet upholstery in sunset colors with chrome legs",
+    price: "₹35,200 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/16.png"]
+  },
+  {
+    id: 102,
+    category: "double-beds",
+    name: "Marble & Oak Bed",
+    description: "Italian marble inlay on premium oak wood frame",
+    price: "₹42,800 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/17.png"]
+  },
+  {
+    id: 103,
+    category: "double-beds",
+    name: "Cloud Haven Bed",
+    description: "Triple-layered cushioning system for weightless comfort",
+    price: "₹38,500 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/18.png"]
+  },
+  {
+    id: 104,
+    category: "double-beds",
+    name: "Industrial Loft Bed",
+    description: "Reclaimed metal pipes with distressed wood platform",
+    price: "₹31,900 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/19.png"]
+  },
+  {
+    id: 105,
+    category: "double-beds",
+    name: "Zen Harmony Bed",
+    description: "Low-profile Japanese platform with built-in nightstands",
+    price: "₹27,600 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/20.png"]
+  },
+  {
+    id: 106,
+    category: "double-beds",
+    name: "Art Deco Majesty Bed",
+    description: "Geometric patterns and gold leaf detailing from the 1920s",
+    price: "₹45,000 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/21.png"]
+  },
+  {
+    id: 107,
+    category: "double-beds",
+    name: "Floating Cloud Bed",
+    description: "LED-lit platform creates illusion of hovering above ground",
+    price: "₹39,999 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/22.png"]
+  },
+  {
+    id: 108,
+    category: "double-beds",
+    name: "Moonlight Serenade Bed",
+    description: "Round velvet headboard with integrated mood lighting for romantic ambiance",
+    price: "₹37,850 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/23.png"]
   }
 ];
