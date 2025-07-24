@@ -1006,5 +1006,215 @@ const products = [
     gstIncluded: true,
     pricePerSeat: false,
     images: ["./assets/images/morebeds/23.png"]
+  },
+  {
+    id: 109,
+    category: "double-beds",
+    name: "Royal Canopy Dream",
+    description: "Four-poster bed with sheer drapes for luxurious privacy",
+    price: "₹45,500 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/2.png"]
+  },
+  {
+    id: 110,
+    category: "double-beds",
+    name: "Velvet Eclipse",
+    description: "Circular midnight blue velvet headboard with gold accents",
+    price: "₹42,750 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/3.png"]
+  },
+  {
+    id: 111,
+    category: "double-beds",
+    name: "Zen Platform Haven",
+    description: "Low-profile Japanese-style bed with integrated storage",
+    price: "₹38,200 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/4.png"]
+  },
+  {
+    id: 112,
+    category: "double-beds",
+    name: "Marble & Oak Symphony",
+    description: "Carrara marble inlay on solid oak wooden frame",
+    price: "₹52,999 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/5.png"]
+  },
+  {
+    id: 113,
+    category: "double-beds",
+    name: "Starlight Haven",
+    description: "Fiber-optic headboard that mimics a starry night sky",
+    price: "₹47,800 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/6.png"]
+  },
+  {
+    id: 114,
+    category: "double-beds",
+    name: "Industrial Chic Loft",
+    description: "Reclaimed metal piping with distressed leather headboard",
+    price: "₹41,350 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/7.png"]
+  },
+  {
+    id: 115,
+    category: "double-beds",
+    name: "Whispering Willow",
+    description: "Hand-carved botanical motifs on sustainable teak wood",
+    price: "₹49,500 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/8.png"]
+  },
+  {
+    id: 116,
+    category: "double-beds",
+    name: "Art Deco Majesty",
+    description: "Geometric patterns and gold leaf detailing from the Roaring Twenties",
+    price: "₹58,200 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/9.png"]
+  },
+  {
+    id: 117,
+    category: "double-beds",
+    name: "Cloud Nine Sanctuary",
+    description: "Triple-layer memory foam with temperature regulation",
+    price: "₹44,900 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/10.png"]
+  },
+  {
+    id: 118,
+    category: "double-beds",
+    name: "Modernist Horizon",
+    description: "Floating platform with hidden LED ambient lighting",
+    price: "₹51,750 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/11.png"]
+  },
+  {
+    id: 119,
+    category: "double-beds",
+    name: "Rustic Charm Retreat",
+    description: "Reclaimed barn wood with visible natural imperfections",
+    price: "₹39,800 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/12.png"]
+  },
+  {
+    id: 120,
+    category: "double-beds",
+    name: "Celestial Nest",
+    description: "Round bed with crescent moon headboard and star projections",
+    price: "₹55,000 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/morebeds/1.png"]
+  },
+  {
+    id: 121,
+    category: "dining-tables",
+    name: "Minimalist Zen Platform",
+    description: "Low-profile white oak table with hidden joinery",
+    price: "₹41,800 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/15.png"]
+  },
+  {
+    id: 122,
+    category: "dining-tables",
+    name: "Marble Monarch Table",
+    description: "Italian Carrara marble top with gold-accented iron base",
+    price: "₹42,500 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/16.png"]
+  },
+  {
+    id: 123,
+    category: "dining-tables",
+    name: "Rustic Farmhouse Feast",
+    description: "Reclaimed teak wood with visible grain and iron brackets",
+    price: "₹35,800 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/17.png"]
+  },
+  {
+    id: 124,
+    category: "dining-tables",
+    name: "Modern Glass Horizon",
+    description: "Tempered glass top floating on polished chrome legs",
+    price: "₹38,900 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/18.png"]
+  },
+  {
+    id: 125,
+    category: "dining-tables",
+    name: "Extendable Oak Symphony",
+    description: "Solid oak table with hidden leaf for 6-10 person seating",
+    price: "₹47,200 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/19.png"]
+  },
+  {
+    id: 126,
+    category: "dining-tables",
+    name: "Industrial Pipe Chic",
+    description: "Black iron pipe base with distressed walnut top",
+    price: "₹39,750 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/20.png"]
+  },
+  {
+    id: 127,
+    category: "dining-tables",
+    name: "Mid-Century Modern Classic",
+    description: "Tapered wooden legs with oval walnut veneer top",
+    price: "₹45,600 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/21.png"]
+  },
+  {
+    id: 128,
+    category: "dining-tables",
+    name: "Live Edge Naturalist",
+    description: "Single slab acacia wood with preserved natural edges",
+    price: "₹52,300 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/22.png"]
+  },
+  {
+    id: 129,
+    category: "dining-tables",
+    name: "Art Deco Grandeur",
+    description: "Geometric patterned top with brass inlay details",
+    price: "₹58,000 All Rates Incl.",
+    gstIncluded: true,
+    pricePerSeat: false,
+    images: ["./assets/images/moretables/23.png"]
   }
 ];
